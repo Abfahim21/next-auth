@@ -6,7 +6,7 @@ export default function Header() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-            <a className="block text-teal-600 dark:text-teal-600" href="#">
+            <a className="block text-teal-600 dark:text-teal-600" href="/">
               <span className="sr-only">Home</span>
               <svg
                 className="h-8"
@@ -28,6 +28,15 @@ export default function Header() {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="/home"
+                  >
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="#"
                   >
                     About
@@ -39,16 +48,7 @@ export default function Header() {
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="#"
                   >
-                    Careers
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                    href="#"
-                  >
-                    History
+                    Career
                   </a>
                 </li>
 
@@ -86,7 +86,7 @@ export default function Header() {
             <div className="sm:flex sm:gap-4">
               <a
                 className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow dark:hover:bg-teal-500"
-                href="#"
+                href="/login"
               >
                 Login
               </a>
