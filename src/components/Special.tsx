@@ -5,7 +5,7 @@ export default function Special() {
     <section className="bg-gray-900 text-white">
       <div className="max-w-screen-xl mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="max-w-xl">
-          <h2 className="text-3xl font-bold sm:text-4xl">
+          <h2 className="text-3xl font-bold sm:text-4xl text-teal-600">
             What makes us special
           </h2>
 
