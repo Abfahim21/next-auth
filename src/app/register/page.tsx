@@ -5,9 +5,9 @@ import bgImage from "../../../public/reg.jpg";
 import Footer from "@/components/Footer";
 export default function page() {
   return (
-    <div className="bg-gray-900 h-screen">
+    <div className="bg-gray-900">
       <Header />
-      <section className="bg-gray-900">
+      <section className="bg-gray-900 mx-auto max-w-screen-xl">
         <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
           <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
             <Image
