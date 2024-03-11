@@ -3,9 +3,9 @@ import React from "react";
 
 export default function page() {
   return (
-    <div>
+    <div className="bg-gray-900 h-screen">
       <Header />
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 pt-40">
+      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 pt-40 ">
         <div className="mx-auto max-w-lg">
           <h1 className="text-center text-2xl font-bold text-teal-600 sm:text-3xl">
             Get started today
