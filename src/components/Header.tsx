@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="bg-white dark:bg-gray-900">
+    <header className="bg-white dark:bg-gray-900 pt-5">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
