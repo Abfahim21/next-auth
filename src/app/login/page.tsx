@@ -3,7 +3,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="bg-gray-900 h-screen">
+    <div className="bg-gray-900 h-screen m-10">
       <Header />
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 pt-40">
         <div className="mx-auto max-w-lg">
